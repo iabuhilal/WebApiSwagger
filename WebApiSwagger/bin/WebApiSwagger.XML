@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiSwagger</name>
+    </assembly>
+    <members>
+        <member name="M:WebApiSwagger.Controllers.UserController.Get">
+            <summary>
+            Get all users
+            </summary>
+            <remarks>Get an array of all users</remarks>
+        </member>
+        <member name="M:WebApiSwagger.Controllers.UserController.Get(System.Int32)">
+            <summary>
+            Get User
+            </summary>
+            <param name="Id">user id</param>
+            <remarks>Get signle User by providing user id</remarks>
+            <response code="404">Not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="P:WebApiSwagger.Models.User.ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:WebApiSwagger.Models.User.UserName">
+            <summary>
+            Username
+            </summary>
+        </member>
+        <member name="P:WebApiSwagger.Models.User.FirstName">
+            <summary>
+            First Name
+            </summary>
+        </member>
+        <member name="P:WebApiSwagger.Models.User.LastName">
+            <summary>
+            Last Name (Surname)
+            </summary>
+        </member>
+        <member name="P:WebApiSwagger.Models.User.Email">
+            <summary>
+            Email
+            </summary>
+        </member>
+        <member name="P:WebApiSwagger.Models.User.DateOfBirth">
+            <summary>
+            Birth Date
+            </summary>
+        </member>
+    </members>
+</doc>
